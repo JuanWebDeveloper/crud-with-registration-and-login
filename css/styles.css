@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background: #e9e9e9;
+}
+
+/* Navigatiom */
+.navigation {
+    background: rgb(47, 46, 46);
+}
+
+.navigation .logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.navigation .logo span {
+    color: #ff7011;
+}
+
+/* logout Content */
+#logoutContent {
+    display: block;
+}
+
+#logoutContent.active {
+    display: none;
+}
+
+.logoutContent {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    top: 150px;
+}
+
+.logoutContent h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.logoutContent h1 span {
+    letter-spacing: 3px;
+}
+
+.logoutContent h1 span span {
+    color: #ff7011;
+}
+
+.logoutContent p {
+    font-size: 20px;
+    color: #444;
+}
+
+/* Forms */
+.active {
+    display: none;
+}
+
+
+.logout {
+    display: none;
+}
+
+.logout.active {
+    display: block;
+}
+
+h3 {
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #ff7011;
+}
+
+.btnP {
+    background: #ff7011;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+
+.btnP:hover {
+    opacity: .8;
+    color: #fff;
+}
+
+.errorMessage {
+    display: none;
+    position: relative;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #f11400;
+    color: #fff;
+    background: rgba(241, 20, 0, .5);
+    transition: all .5s ease-in-out;
+}
+
+.show {
+    display: block;
+}
+
+input {
+    transition: all .5s ease-in-out;
+}
+
+.inputError {
+    border: 1px solid #f11400;
+}
+
+/* User Task List */
+#userTaskList {
+    display: none;
+}
+
+#userTaskList.active {
+    display: block;
+}
+
+.form, .cardsSingle {
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+.form form input,
+.form form textarea {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid #ff7011;
+    background: transparent;
+}
+
+.form form input:focus,
+.form form textarea:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ff7011;
+    background: transparent;
+}
+
+.form form textarea {
+    min-height: 100px;
+    max-height: 300px;
+}
+
+.form .btnTask {
+    padding: 5px 30px;
+    border-radius: 5px;
+    color: #fff;
+    background: #ff7011;
+}
+
+.cardsSingle p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #444;
+}
